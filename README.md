@@ -50,10 +50,13 @@
 - Divide data into dependent & Independent variables.
 
 ## Data Modelling & Evaluation
-- Create Linear Regression model using mixed approach (RFE & VIF/p-value).
+- Create Linear Regression model 
 - Check the various assumptions.
-- Check the Adjusted R-Square for both train & Test data.
-- Report the final model.
+- Cross validations
+- Find the overfitting and underfitting
+- Perform Ridge
+- Perform Lasso
+
 
 ## Technologies Used
 - Jupyter Notebooks
@@ -68,17 +71,6 @@
 - Cross Gridsearch sv
 - Lasso
 - Ridge
-
-# Conclusions
-## from EDA Process
-
-- The Bike Sharing Bookings are high during FALL Season.
-- The Bike Sharing Bookings are high in the year 2019 and low in 2018.
-- The Bike Sharing Bookings are high in the middle of the year (may to oct).
-- At start of the year tends to increase and at the end of the year it decreases
-- The Bike Sharing Bookings are high in Weekends and holidays
-- The Bike Sharing Bookings are high when they slightly moving towards weekends.
-- The Bike Sharing Bookings are high in the clear weather compared to mist and light snow
 
 ## Model Building and Evaluation
 ### So The Variables which are significant in predicting the demand for shared bikes
@@ -102,7 +94,7 @@
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by the Bike sharing companies where i came to know the process about how the bike is being shared for a rental purposes.
+- This project was inspired by the US-based housing company named Surprise Housing has decided to enter the Australian market where i came to know the process. 
 - Got many references from the internet for the bike sharing terminologies
 - Thanks to upgrad on giving me this opportunity to work on this analysis
 
